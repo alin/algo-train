@@ -5,3 +5,4 @@ Most implementations are in java becasue I'm focused more on the algorithm itsel
 ## infoarena.ro archive problems
 * adunare - <https://infoarena.ro/problema/adunare>
 * cmmdc - <https://infoarena.ro/problema/cmmdc>
+* cifra - <https://infoarena.ro/problema/cifra>
