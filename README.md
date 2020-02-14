@@ -8,3 +8,4 @@ Most implementations are in java becasue I'm focused more on the algorithm itsel
 * cifra - <https://infoarena.ro/problema/cifra>
 ## Cracking The Interview Code problems
 * unique - text inside
+* string permutation - text inside
