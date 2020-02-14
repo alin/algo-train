@@ -6,3 +6,5 @@ Most implementations are in java becasue I'm focused more on the algorithm itsel
 * adunare - <https://infoarena.ro/problema/adunare>
 * cmmdc - <https://infoarena.ro/problema/cmmdc>
 * cifra - <https://infoarena.ro/problema/cifra>
+## Cracking The Interview Code problems
+* unique - text inside
