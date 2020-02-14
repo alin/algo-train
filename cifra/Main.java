@@ -3,7 +3,6 @@ import java.io.*;
 
 public class Main {
 	static int[] values;
-
 	static void readAndWrite() {
 		try {
 		BufferedReader br = new BufferedReader(new FileReader("cifra.in"));
@@ -21,8 +20,7 @@ public class Main {
 	catch (Exception e) {
 		e.printStackTrace();
 	}
-
-	}
+}
 
 	static int power(int val) {
 		int x = (val >= 10) ? val % 10 : val;
