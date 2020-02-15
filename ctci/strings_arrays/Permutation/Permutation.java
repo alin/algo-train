@@ -16,12 +16,13 @@ public class Permutation {
 		// With no aditional data structure -> Iterate the first string and for each character iterate
 		// the second string to find the same character. If found remove it, otherwise stop -> they're not permutation
 		
-		//First solution - use a hashmap
+		//First solution - use a hashmap (assuming we don't know the range of the characters otherwise we could use a simple array with 128/256/1024 size)
 		HashMap<Character, Integer> chars = new HashMap();
 		for(int stringIterator = 0; stringIterator < args[0].length(); stringIterator++) {
 			chars.put(args[0].charAt(stringIterator), chars.getOrDefault(args[0].charAt(stringIterator), 0)+1);
 			chars.put(args[1].charAt(stringIterator), chars.getOrDefault(args[1].charAt(stringIterator), 0)-1);
 		}
+		//Iterate the map and see if all the entries are 0
 
 		//Second solution do it in place by removing the characters in the second string
 		boolean found = false;
@@ -41,8 +42,5 @@ public class Permutation {
 			System.out.println("Strings are a permutation of each other " );
 		else
 			System.out.println("Strings are not a permutation of each other");
-
-
-
 	}
 }
