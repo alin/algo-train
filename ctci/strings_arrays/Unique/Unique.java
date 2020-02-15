@@ -6,8 +6,9 @@ public class Unique {
 
 		// If we can use an additional data structure -> iterate the string and 
 		// extract every character in a new data structure with unique entry
-		// for every char i.e. if we consider the characters to be primite
+		// for every char i.e. if we consider the characters to be ASCII
 		// chars from 0-256 then we can use a single array[256]. 
+		// Or use 1024 tu hold unicode
 		char[] characters = new char[256];
 		boolean unique = true;
 		for(int stringIterator = 0; stringIterator < args[0].length(); stringIterator++) {
@@ -24,7 +25,7 @@ public class Unique {
 			System.out.println("The string is unique");
 
 
-		// Otherwise if we consider unicode a better solution is to use a hashset
+		// An alternative solution is to use a hashset - if we don't know for example the limit of unicode :)
 		HashSet<Character> set = new HashSet();
 		unique = true;
 		for(int stringIterator = 0; stringIterator < args[0].length(); stringIterator++) {
