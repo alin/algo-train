@@ -9,3 +9,4 @@ Most implementations are in java becasue I'm focused more on the algorithm itsel
 ## Cracking The Interview Code problems
 * unique - text inside
 * string permutation - text inside
+* spaces - replace spaces in a string/char array with %20
